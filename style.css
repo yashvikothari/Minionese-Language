@@ -1,8 +1,25 @@
 :root {
     --primary-color: #eeba00;
-    --secondary-color: #0abc28;
+    --secondary-color: #e7ebf4;
     --dark-grey: #221f20;
     --white: #ffffff;
+}
+
+
+.btn-translate {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    color: var(--primary-color);
+    font-weight: lighter;
+}
+
+.btn-translate:hover {
+    background-color: var(--primary-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .footer {
