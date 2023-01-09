@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #eeba00;
+    --secondary-color: #0abc28;
+    --dark-grey: #221f20;
+    --white: #ffffff;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-heading {
+    font-size: 30px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.footer-content {
+    margin: 1rem 0;
+}
+
+.footer-container {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: var(--secondary-color);
+    width: 60%;
+}
